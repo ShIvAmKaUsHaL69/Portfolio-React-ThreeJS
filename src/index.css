@@ -101,7 +101,7 @@ body {
 
   /*  work experience section */
   .work-container {
-    @apply grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12;
+    @apply grid lg:grid-cols-3 grid-cols-1 sm:gap-5 mt-12 gap-x-0 gap-y-5  ;
   }
 
   .work-canvas {
@@ -109,7 +109,7 @@ body {
   }
 
   .work-content {
-    @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
+    @apply col-span-2 rounded-lg bg-black-200 border border-black-300 min-h-96;
   }
 
   .work-content_container {
