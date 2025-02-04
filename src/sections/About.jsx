@@ -66,7 +66,7 @@ export default function About() {
                     <img src='/assets/grid3.png' alt='grid-3' className='w-full sm:h-[266px] h-fit object-contain'/>
                     <div>
                         <p className='grid-headtext'>My Passion for Coding</p>
-                        <p className='grid-subtext'>I love builing things through code. Coding isn't just my profession - it is my passion.</p>
+                        <p className='grid-subtext'>I love building things through code. Coding isn't just my profession - it is my passion.</p>
                     </div>
                 </div>
             </div>
