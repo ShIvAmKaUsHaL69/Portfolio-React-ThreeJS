@@ -122,10 +122,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Blog App',
+      desc: 'This is a dynamic blogging platform built with Next.js, leveraging modern rendering techniques like ISR (Incremental Static Regeneration), SSR (Server-Side Rendering), and PPR (Partial Prerendering) to optimize performance and SEO. The app is powered by Sanity as a headless CMS, ensuring seamless content management.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'It is integrated with Sanity, allowing easy content creation and management. Authentication is handled through Auth.js, currently supporting GitHub login. The UI is designed using Tailwind CSS, ensuring a modern and responsive layout, while TypeScript enhances code reliability and maintainability.',
       href: 'https://blog.shivamkaushal.site/',
       texture: '/textures/project/blogs.mp4',
       logo: '/assets/blogfavicon.svg',
