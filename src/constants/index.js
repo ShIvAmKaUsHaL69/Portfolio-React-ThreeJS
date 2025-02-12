@@ -62,7 +62,7 @@ export const navLinks = [
       desc: "I've built a web app using React, NPM, and Parcel , powered by a REST API. where you can explore countries from around the world",
       subdesc:
         `Displays country cards,Click on a country to view details like native name, population, and more.Filter countries by region and search by name.Type a country's name in the URL to navigate directly to its page (React Router DOM). Light/Dark Mode: Saves your preference using local storage.`,
-      href: 'https://react-country-detail-e62p.vercel.app',
+      href: 'https://country-details.shivamkaushal.site/',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/globe.svg',
       logoStyle: {
@@ -116,50 +116,50 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
+          name: 'Three.js',
           path: '/assets/Threejs.svg',
         },
       ],
     },
-    // {
-    //   title: 'CarePulse - Health Management System',
-    //   desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    //   subdesc:
-    //     'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    //   href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    //   texture: '/textures/project/project3.mp4',
-    //   logo: '/assets/project-logo3.png',
-    //   logoStyle: {
-    //     backgroundColor: '#60f5a1',
-    //     background:
-    //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-    //     border: '0.2px solid rgba(208, 213, 221, 1)',
-    //     boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    //   },
-    //   spotlight: '/assets/spotlight3.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/typescript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'CarePulse - Health Management System',
+      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      subdesc:
+        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+      href: 'https://blog.shivamkaushal.site/',
+      texture: '/textures/project/blogs.mp4',
+      logo: '/assets/blogfavicon.svg',
+      logoStyle: {
+        backgroundColor: '#60f5a1',
+        background:
+          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Next.js',
+          path: '/assets/nextjs.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Sanity',
+          path: '/assets/sanity.png',
+        },
+      ],
+    },
     // {
     //   title: 'Horizon - Online Banking Platform',
     //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
