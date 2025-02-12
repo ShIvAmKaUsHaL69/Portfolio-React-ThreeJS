@@ -1,5 +1,2 @@
-portfolio using ThreeJS
-
-![alt text](image-1.png)
-
-currently this is only done
+## Portfolio
+Check out my portfolio for web development projects: [Shivam Kaushal Portfolio](https://shivamkaushal.site)
