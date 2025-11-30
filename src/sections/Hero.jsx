@@ -6,7 +6,6 @@ import Canvasloader from '../component/Canvasloader'
 // import { Leva, useControls } from 'leva'
 import { useMediaQuery } from 'react-responsive'
 import { calculateSizes } from '../constants'
-import Target from '../component/Target'
 import Reactlogo from '../component/Reactlogo'
 import Cube from '../component/Cube'
 import Ring from '../component/Ring'
@@ -41,7 +40,6 @@ export default function Hero() {
                 </Herocamera>
 
                 <group>
-                      <Target position={sizes.targetPosition}/>\
                       <Reactlogo position={sizes.reactLogoPosition}/>
                       <Cube position={sizes.cubePosition} />
                       <Ring position={sizes.ringPosition} />
@@ -63,3 +61,4 @@ export default function Hero() {
     </section>
   )
 }
+
